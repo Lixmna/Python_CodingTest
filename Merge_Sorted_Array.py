@@ -6,12 +6,12 @@ def Solution(nums1,m, nums2, n) :
         if nums1_counter == m :
             for i in range(nums2_counter, n) :
                 answer.append(nums2[i])
-            break;
+            break
 
         if nums2_counter == n :
             for i in range(nums1_counter, m) :
                 answer.append(nums1[i])
-            break;
+            break
 
         if nums1[nums1_counter] < nums2[nums2_counter] :
             answer.append(nums1[nums1_counter])

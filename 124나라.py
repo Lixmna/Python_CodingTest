@@ -4,10 +4,10 @@ def solution(n):
     binary = []
 
     while n > 3 :
-        temp = n % 3;
+        temp = n % 3
         if temp == 0 :
             binary.append(3)
-            n = int(n / 3) - 1;
+            n = int(n / 3) - 1
         else :
             binary.append(n % 3)
             n = int(n / 3)

@@ -2,8 +2,7 @@ def solution(skill, skill_trees):
     answer = 0
     skill = list(map(str, skill))
     skill_check = 0
-    skill_lenth = len(skill)
-
+    
     answer_check = True
 
     for i in skill_trees :
@@ -24,4 +23,3 @@ def solution(skill, skill_trees):
 
 
     return answer
-    
